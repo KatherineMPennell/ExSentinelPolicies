@@ -1,8 +1,3 @@
-
-policy "working-hours" {
-  enforcement_level = "advisory"
-}
-
 policy "aws-restrict-instance-type-default" {
   enforcement_level = "soft-mandatory"
 }
