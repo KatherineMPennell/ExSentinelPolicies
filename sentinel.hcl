@@ -1,6 +1,3 @@
-policy "blacklist-resources" {
-  enforcement_level = "advisory"
-}
 
 policy "working-hours" {
   enforcement_level = "advisory"
@@ -14,6 +11,10 @@ policy "change-window-hours" {
   enforcement_level = "advisory"
 }
 
-policy "azurerm-restrict-vm-size" {
-  enforcement_level = "soft-mandatory"
+policy "deny-cost-estimation-limit" {
+  enforcement_level = "advisory"
 }
+
+policy "enforce-mandatory-tags" {
+  enforcement_level = "advisory"
+  }
