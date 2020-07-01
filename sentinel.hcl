@@ -1,4 +1,4 @@
-policy "aws-restrict-instance-type-default" {
+policy "aws-restrict-instance-type" {
   enforcement_level = "soft-mandatory"
 }
 
