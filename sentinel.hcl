@@ -1,7 +1,3 @@
-policy "aws-restrict-instance-type" {
-  enforcement_level = "soft-mandatory"
-}
-
 policy "change-window-example" {
   enforcement_level = "advisory"
 }
